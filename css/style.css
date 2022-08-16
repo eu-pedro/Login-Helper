@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+  min-height: 9vh;
+  display: flex;
+  justify-content: center;
+  background-color: #383C42;
+}
+header > h1 {
+  font-size: 2.5em;
+  color:#ffffff;
+}
+main{
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to top, #18ACFE, #0166e1);
+  display:flex;
+  justify-content: center;
+  box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25)
+}
+main > form{
+  margin-top: 5%;
+  width: 35%;
+  height: 75vh;
+  background-color: #383C42;
+  box-shadow: 0px 3px 4px rgb(0, 0, 0, 0.4) inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputs-container{
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputs-container input {
+  width: 90%;
+  height: 45px;
+  padding: 8px 15px; 
+  border: 0;
+  outline: 0;
+  border-radius: 12px;
+  font-size: 16px;
+  color: #312e42;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.inputs-container input:focus{
+  box-shadow: inset 1px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+main form .password-container{
+  margin-top: 5%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main form .password-container i{
+  position: absolute;
+  top: 33%;
+  right: 9%;
+  color: #777;
+  cursor: pointer;
+}
+#eye{
+  display:none;
+}
