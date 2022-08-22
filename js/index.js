@@ -6,16 +6,18 @@ let campoSenha = document.querySelector('#field-password')
 
 
 function mostrarSenha(){
-  
   if(eye.style.display === "none"){
     eye.style.display = "block"
     eyeSlash.style.display = "none"
     campoSenha.type = "text"
-  } else{
+  }
+  else{
     eye.style.display = "none"
     eyeSlash.style.display = "block"
     campoSenha.type = "password"
   }
+  
+  
 
 
 }
